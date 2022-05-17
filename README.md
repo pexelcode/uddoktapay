@@ -1,5 +1,5 @@
 
-# Uddokta Pay Payment Gateway Integration By Code Ecstasy
+# Uddokta Pay Payment Gateway Integration By [Code Ecstasy](https://codecstasy.com)
 
 Uddoktapay is an amazing payment gateway where we can transfer money on our own personal number and which is fully automatic. We will see the integration that how can we integrate uddoktapay payment gateway in Laravel 9.
 
