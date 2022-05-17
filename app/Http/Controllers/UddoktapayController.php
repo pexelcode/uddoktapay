@@ -63,7 +63,7 @@ class UddoktapayController extends Controller {
      */
     public function webhook( Request $request ) {
 
-        $headerApi = isset( $_SERVER['UDDOKTAPAY_API_KEY'] ) ? $_SERVER['UDDOKTAPAY_API_KEY'] : null;
+        $headerApi = isset( $_SERVER['RT_UDDOKTAPAY'] ) ? $_SERVER['RT_UDDOKTAPAY'] : null;
 
         if ( $headerApi == null ) {
             return response( "Api key not found", 403 );
